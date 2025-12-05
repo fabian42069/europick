@@ -73,6 +73,8 @@
                 { "id": "vivaldi", "name": "Vivaldi" },
                 { "id": "mullvad_browser", "name": "Mullvad Browser" },
                 { "id": "firefox", "name": "Firefox (US)" },
+                { "id": "librewolf", "name": "Librewolf" },
+				{ "id": "waterfox", "name": "Waterfox" },
                 { "id": "ecosia", "name": "Ecosia" }
             ]
         },
@@ -146,7 +148,8 @@
             "private_alternatives": [
                 { "id": "ollama", "name": "Ollama" },
                 { "id": "mistral", "name": "Le Chat" },
-                { "id": "aleph-alpha", "name": "Aleph Alpha" }
+                { "id": "aleph-alpha", "name": "Aleph Alpha" },
+                { "id": "lumo", "name": "Proton Lumo" }
             ]
         },
         {
@@ -170,7 +173,10 @@
                 { "id": "app_store", "name": "App Store" }
             ],
             "private_alternatives": [
-                { "id": "f_droid", "name": "F-Droid" }
+                { "id": "f_droid", "name": "F-Droid" },
+                { "id": "droidify", "name": "Droidify" },
+				{ "id": "applounge", "name": "App Lounge" },
+				{ "id": "aurora", "name": "Aurora" }
             ]
         },
         {
@@ -236,7 +242,8 @@
             "private_alternatives": [
                 { "id": "capacities", "name": "Capacities" },
                 { "id": "craft", "name": "Craft" },
-                { "id": "inlinestyle", "name": "Inlinestyle Notes" }
+                { "id": "inlinestyle", "name": "Inlinestyle Notes" },
+                { "id": "murenanotes", "name": "Murena Notes" }
             ]
         },
 
@@ -248,8 +255,39 @@
                 { "id": "guilded", "name": "Guilded" }
             ],
             "private_alternatives": [
-                { "id": "matrix", "name": "Matrix" }
+                { "id": "matrix", "name": "Matrix" },
+                { "id": "revolt", "name": "Revolt" }
             ]
-        }
+        },
+
+        {
+            "name": "Phone",
+            "order": 17,
+            "mainstream_apps": [
+                { "id": "samsung", "name": "Samsung" },
+                { "id": "iphone", "name": "iPhone" },
+                { "id": "pixel", "name": "Google Pixel" },
+                { "id": "android", "name": "Other Android" }
+            ],
+            "private_alternatives": [
+                { "id": "fairphone", "name": "Fairphone" },
+                { "id": "jolla", "name": "Jolla" },
+                { "id": "eos", "name": "Murena /e/OS" },
+                { "id": "grapheneos", "name": "Graphene OS" }
+            ]
+        },
+
+         {
+            "name": "Desktop OS",
+            "order": 18,
+            "mainstream_apps": [
+                { "id": "windows", "name": "Windows" },
+                { "id": "macos", "name": "MacOS" },
+                { "id": "chromeos", "name": "ChromeOS" }
+            ],
+            "private_alternatives": [
+                { "id": "linux", "name": "Linux" }
+            ]
+        },
     ]
 }
